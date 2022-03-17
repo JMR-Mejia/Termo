@@ -31,9 +31,6 @@ function App() {
 	const onCpMezcla = (event) => {
 		setCpMezcla(event.target.checked)
 	}
-	const onLlamaDiabatica = (event) => {
-		setLlamaDiabatica(event.target.value)
-	}
 	const onCombustible = (event) => {
 		setCombustible(event.target.value)
 	}
@@ -52,7 +49,6 @@ function App() {
 		console.log("Temperatura: " + temperatura)
 		console.log("Masa Molar: " + masaMolar)
 		console.log("Cp Mezcla: " + cpMezcla)
-		console.log("Llama Diabatica: " + llamaDiabatica)
 		console.log("Variables")
 		console.log("Combustible: " + combustible)
 		console.log("Lambda: " + lambda)
